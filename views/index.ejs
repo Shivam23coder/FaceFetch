@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Face Recognition</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Upload Images</h1>
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <h3>Known Person</h3>
+    <input type="file" name="knownImages" multiple required><br><br>
+
+    <h3>Mixed Images</h3>
+    <input type="file" name="mixedImages" multiple required><br><br>
+
+    <button type="submit">Start Matching</button>
+  </form>
+</body>
+</html>

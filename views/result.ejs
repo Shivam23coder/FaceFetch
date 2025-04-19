@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results</title>
+  <link rel="stylesheet" href="result.css">
+</head>
+<body>
+  <h1>Matched Results</h1>
+  <% images.forEach(img => { %>
+    <img src="../output/<%= img %>" width="200">
+  <% }) %>
+</body>
+</html>
